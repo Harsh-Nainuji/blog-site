@@ -1,5 +1,4 @@
 // File: frontend/src/admin/CategoryListAdmin.jsx
-// =========================
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -27,7 +26,7 @@ export default function CategoryListAdmin() {
 
   return (
     <div className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Manage Categories</h2 > );
+      <h2 className="text-2xl font-bold mb-4">Manage Categories</h2>
       <Link to="/admin/add-category" className="mb-4 inline-block bg-black text-white px-3 py-1 rounded">➕ Add New</Link>
       {cats.map(c => (
         <div key={c._id} className="flex justify-between p-2 border-b">
@@ -38,4 +37,3 @@ export default function CategoryListAdmin() {
     </div>
   );
 }
-

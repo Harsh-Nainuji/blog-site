@@ -1,3 +1,4 @@
+// File: src/admin/EditBlog.jsx (inferred)
 import { useParams } from "react-router-dom";
 
 const EditBlog = () => {

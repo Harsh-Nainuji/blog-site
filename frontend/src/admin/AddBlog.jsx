@@ -122,7 +122,7 @@ const AddBlog = () => {
               required
             />
           </div>
-          <br></br>
+          <br />
           <button type="submit" className="btn w-full">
             Add Blog
           </button>

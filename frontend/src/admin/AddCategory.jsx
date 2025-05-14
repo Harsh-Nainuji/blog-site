@@ -1,3 +1,4 @@
+// File: src/admin/AddCategory.jsx (inferred)
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
@@ -22,8 +23,12 @@ export default function AddCategory() {
     <div className="add-category-section container mx-auto px-4 py-12">
       <div className="max-w-md mx-auto">
         <div className="header mb-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Add New Category</h2>
-          <p className="text-gray-600">Create a category to organize your BlogVerse posts.</p>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            Add New Category
+          </h2>
+          <p className="text-gray-600">
+            Create a category to organize your BlogVerse posts.
+          </p>
         </div>
         <div className="form-container space-y-6 bg-white p-8 rounded-lg shadow-lg">
           <div className="form-group">
@@ -36,8 +41,15 @@ export default function AddCategory() {
               required
             />
           </div>
-          <button type="submit" onClick={submit} className="btn w-full">Save Category</button>
-          <Link to="/admin/dashboard" className="text-primary hover:underline block text-center mt-4">← Back to Dashboard</Link>
+          <button type="submit" onClick={submit} className="btn w-full">
+            Save Category
+          </button>
+          <Link
+            to="/admin/dashboard"
+            className="text-primary hover:underline block text-center mt-4"
+          >
+            ← Back to Dashboard
+          </Link>
         </div>
       </div>
     </div>

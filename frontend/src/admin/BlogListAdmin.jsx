@@ -1,4 +1,4 @@
-// src/admin/BlogListAdmin.jsx
+// File: src/admin/BlogListAdmin.jsx
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
